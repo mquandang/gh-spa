@@ -1,0 +1,19 @@
+{
+  "name": "gh-spa",
+  "version": "1.0.0",
+  "description": "Contact intake form with Supabase integration",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "deploy": "npm run build && wrangler deploy",
+    "dev": "npm run build && wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.45.0"
+  }
+}

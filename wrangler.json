@@ -1,0 +1,14 @@
+{
+  "name": "gh-spa",
+  "compatibility_date": "2026-08-17",
+  "type": "javascript",
+  "main": "src/index.js",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  },
+  "vars": {
+    "SUPABASE_PROJECT_URL": "",
+    "SUPABASE_ANON_KEY": ""
+  }
+}
